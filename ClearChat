@@ -1,0 +1,7 @@
+command /cc:
+    permission: clear.chat
+    permission: &6[&cServer&6] &7You don't have permission to do this!
+    trigger:
+        loop 1000 times:
+            broadcast "&f"
+        broadcast "&6[&cServer&6] &7Chat deleted by %player%"
