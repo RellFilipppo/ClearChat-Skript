@@ -1,4 +1,5 @@
 command /cc:
+    aliases: clearchat
     permission: clear.chat
     permission: &6[&cServer&6] &7You don't have permission to do this!
     trigger:
